@@ -2,7 +2,9 @@
 
 namespace rock_paper_scissor
 {
+    
     class Program
+    
     {
         static void Main(string[] args)
         {
@@ -18,11 +20,21 @@ namespace rock_paper_scissor
             {
                 
             
-                    Console.WriteLine("Please guess a number between 1 and 100");
+                    Console.WriteLine("Rock, Paper, or Scissors");
+             
+                Console.WriteLine("Rock, Paper, or Scissors?");
                 string userInput = Console.ReadLine();
-                string[] userRps = new string[] { "Rock", "Paper", "Scissors"};
-int userGuess = userInput. (0,2);
-                bool isInt = Int32.TryParse(userInput, out userGuess);
+            string[] userGuess = new string[] { "Rock", "Paper", "Scissors"};
+              int userRps =userGuess.(userInput, out userRps); 
+                
+                
+
+                
+                 
+
+             
+                }
+             
                
                     
     
@@ -30,5 +42,5 @@ int userGuess = userInput. (0,2);
       
         }
     }
-    }
+    
 
