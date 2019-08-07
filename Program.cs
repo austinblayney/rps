@@ -17,13 +17,18 @@ namespace rock_paper_scissor
                 while (true)
             {
                 
-                Console.WriteLine("Rock, Paper, or Scissors?");
+            
+                    Console.WriteLine("Please guess a number between 1 and 100");
                 string userInput = Console.ReadLine();
-                int guess = 0;
-                bool isInt = Int32.TryParse(userInput, out guess);
-                   
+                string[] userRps = new string[] { "Rock", "Paper", "Scissors"};
+int userGuess = userInput. (0,2);
+                bool isInt = Int32.TryParse(userInput, out userGuess);
+               
+                    
+    
+                }
       
         }
     }
     }
-}
+
